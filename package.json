@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Auro-jyoti/revision-react/issues"
   },
-  "homepage": "https://github.com/Auro-jyoti/revision-react#readme"
+  "homepage": "https://github.com/Auro-jyoti/revision-react#readme",
+  "devDependencies": {
+    "parcel": "^2.9.0"
+  }
 }
