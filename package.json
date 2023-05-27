@@ -1,0 +1,19 @@
+{
+  "name": "revision",
+  "version": "1.0.0",
+  "description": "revision of previous",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Auro-jyoti/revision-react.git"
+  },
+  "author": "Aurojyoti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Auro-jyoti/revision-react/issues"
+  },
+  "homepage": "https://github.com/Auro-jyoti/revision-react#readme"
+}
