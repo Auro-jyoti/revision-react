@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px solid black;
+}
+.nav-items > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items {
+    background-color: pink;
+}
+
+.nav-items > ul > li {
+    justify-content: space-between;
+}
+
+.nav-items > ul > li {
+    justify-content: space-around;
+}
+.logo {
+    width: 100px;
+}
+
+.bg-dv {
+    /* background-color: pink;
+    display: flex; */
+}
+
+
+
+

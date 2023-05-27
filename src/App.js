@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Title from "./Components/HeaderComponent";
+import HeaderComponent from "./Components/HeaderComponent";
 
 const AppLayout = () => {
     return (
         <>
-            <Title />
+            <HeaderComponent />
         </>
     );
 };
