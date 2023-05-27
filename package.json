@@ -2,9 +2,10 @@
   "name": "revision",
   "version": "1.0.0",
   "description": "revision of previous",
-  "main": "App.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "parcel build index.html",
+    "start": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "browserslist" : [
+    "last 2 version"
+  ]
 }
