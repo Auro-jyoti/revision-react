@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Title from "./HeaderComponent";
+import Title from "./Components/HeaderComponent";
 
 const AppLayout = () => {
     return (
