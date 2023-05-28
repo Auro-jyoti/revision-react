@@ -9,26 +9,26 @@
     list-style-type: none;
 }
 
-.nav-items {
-    background-color: pink;
+.nav-items > ul > li {
+    padding: 10px;
+    padding-top : 25px;
 }
 
-.nav-items > ul > li {
-    justify-content: space-between;
-}
-
-.nav-items > ul > li {
-    justify-content: space-around;
-}
 .logo {
     width: 100px;
 }
 
-.bg-dv {
-    /* background-color: pink;
-    display: flex; */
+.card {
+    width: 200px;
+    border : 1px solid black;
+    padding : 10px;
+    margin: 10px;
 }
 
+.card > img {
+    width: 100%;
+    height: 200px;
+}
 
 
 
