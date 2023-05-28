@@ -1,8 +1,15 @@
+.t-head {
+    text-align: center;
+    margin: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     margin: 10px;
-    border: 1px solid black;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
 .nav-items > ul {
     display: flex;
@@ -15,19 +22,33 @@
 }
 
 .logo {
-    width: 100px;
+    width: 150px;
+    height: 100px;
 }
 
-.card {
+.Card {
     width: 200px;
-    border : 1px solid black;
-    padding : 10px;
-    margin: 10px;
+    height: 300px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    word-wrap: break-word;
 }
 
-.card > img {
+.Card > img {
     width: 100%;
-    height: 200px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.Card > h2, h3, h4{
+    text-align: center;
+}
+
+.Card > h3 {
+    border-bottom: 1px solid rgb(203, 196, 196);
 }
 
 

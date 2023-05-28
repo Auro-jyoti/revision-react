@@ -2,11 +2,12 @@ import {logo} from "../../imgs/assets";
 import { useState } from "react";
 
 import RestrauntCard from "./RestrauntCard";
+import { restrauntList } from "../Config";
 
 const Title = () => (
     <a href ="/">
         <img 
-            className="logo" alt="logo" src={logo}
+        className="logo" alt="logo" src={logo}
         />
     </a>
 );
@@ -17,7 +18,7 @@ const HeaderComponent = () => {
         <>
             <div className = "header">
                 <Title />
-                <h1>{title}</h1>
+                <h1 className="t-head">{title}</h1>
 
                 <div className="nav-items">
                     <ul>
@@ -27,6 +28,11 @@ const HeaderComponent = () => {
                         <li>Cart</li>
                     </ul>
                 </div>
+            </div>
+            <div className="restraunt-list">
+                {
+
+                }
             </div>
         </>
     );
