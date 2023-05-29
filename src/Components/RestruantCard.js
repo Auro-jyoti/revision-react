@@ -20,10 +20,8 @@ import { restrauntList } from "../Config";
 //     Address : "New Colony"
 // };
 
-const RestrauntCard = ({ restaurant }) => {
+const RestrauntCard = ({ cloudinaryImageId, name, cuisines, area }) => {
     // console.log(restaurant);
-
-    const {cloudinaryImageId, name, cuisines, area} = restaurant.data;
     return (
         <div className="Card">
             <img src={linkId + cloudinaryImageId}/>
