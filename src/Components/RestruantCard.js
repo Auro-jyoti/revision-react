@@ -22,12 +22,14 @@ import { restrauntList } from "../Config";
 
 const RestrauntCard = ({ restaurant }) => {
     // console.log(restaurant);
+
+    const {cloudinaryImageId, name, cuisines, area} = restaurant.data;
     return (
         <div className="Card">
-            <img src={linkId + restaurant.data?.cloudinaryImageId}/>
-            <h2>{restaurant.data?.name}</h2>
-            <h3>{restaurant.data?.cuisines?.join(", ")}</h3>
-            <h4>{restaurant.data?.area}</h4>
+            <img src={linkId + cloudinaryImageId}/>
+            <h2>{name}</h2>
+            <h3>{cuisines?.join(", ")}</h3>
+            <h4>{area}</h4>
         </div>
     );
 };
