@@ -32,6 +32,7 @@
     border: 1px solid gray;
     padding: 10px;
     margin-left: 10px;
+    margin-bottom: 10px;
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
     word-wrap: break-word;
@@ -51,5 +52,18 @@
     border-bottom: 1px solid rgb(203, 196, 196);
 }
 
+.restraunt-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
 
 

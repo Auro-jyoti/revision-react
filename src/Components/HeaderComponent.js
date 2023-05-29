@@ -1,7 +1,7 @@
 import {logo} from "../../imgs/assets";
 import { useState } from "react";
 
-import RestrauntCard from "./RestrauntCard";
+import RestrauntCard from "../../imgs/RestrauntCardStatic";
 import { restrauntList } from "../Config";
 
 const Title = () => (

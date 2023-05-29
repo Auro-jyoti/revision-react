@@ -1,4 +1,4 @@
-import { tempImg, testImg } from "../../imgs/assets";
+import { linkId, tempImg, testImg } from "../../imgs/assets";
 
 import { restrauntList } from "../Config";
 
@@ -13,15 +13,21 @@ import { restrauntList } from "../Config";
 //     );
 // };
 
+// const burgerKing = {
+//     name: "Burger King",
+//     image: {tempImg},
+//     cusines: ["Burger", "American"],
+//     Address : "New Colony"
+// };
 
-
-const RestrauntCard = () => {
+const RestrauntCard = (props) => {
+    console.log(props);
     return (
         <div className="Card">
-            <img src={tempImg} />
-            <h2>Burger King</h2>
-            <h3>Burgers, American</h3>
-            <h4>Address</h4>
+            <img src={linkId + props.v.data?.cloudinaryImageId}/>
+            <h2>{props.v.data?.name}</h2>
+            <h3>{props.v.data?.cuisines?.join(", ")}</h3>
+            <h4>{props.v.data?.area}</h4>
         </div>
     );
 };

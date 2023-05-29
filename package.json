@@ -1,11 +1,11 @@
 {
   "name": "revision",
   "version": "1.0.0",
-  "description": "revision of previous",
+  "description": "revision of previous lectures",
   "scripts": {
     "test": "jest",
-    "build": "parcel build index.html",
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -17,15 +17,15 @@
     "url": "https://github.com/Auro-jyoti/revision-react/issues"
   },
   "homepage": "https://github.com/Auro-jyoti/revision-react#readme",
-  "devDependencies": {
-    "parcel": "^2.9.0",
-    "process": "^0.11.10"
-  },
   "dependencies": {
+    "parcel-bundler": "^1.12.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "browserslist" : [
+  "devDependencies": {
+    "parcel": "^2.9.1"
+  },
+  "browserslist": [
     "last 2 version"
   ]
 }
