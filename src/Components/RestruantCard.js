@@ -20,14 +20,14 @@ import { restrauntList } from "../Config";
 //     Address : "New Colony"
 // };
 
-const RestrauntCard = (props) => {
-    console.log(props);
+const RestrauntCard = ({ restaurant }) => {
+    // console.log(restaurant);
     return (
         <div className="Card">
-            <img src={linkId + props.v.data?.cloudinaryImageId}/>
-            <h2>{props.v.data?.name}</h2>
-            <h3>{props.v.data?.cuisines?.join(", ")}</h3>
-            <h4>{props.v.data?.area}</h4>
+            <img src={linkId + restaurant.data?.cloudinaryImageId}/>
+            <h2>{restaurant.data?.name}</h2>
+            <h3>{restaurant.data?.cuisines?.join(", ")}</h3>
+            <h4>{restaurant.data?.area}</h4>
         </div>
     );
 };
